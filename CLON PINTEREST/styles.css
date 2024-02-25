@@ -1,0 +1,245 @@
+
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    position: fixed;
+width: 100%;
+z-index: 1000;
+background-color: #EEEE;
+border-radius: 15px;
+}
+
+.Izq {
+    display: inline;
+    float: left;
+  }
+
+  .Der{
+    display: inline;
+    float: right;
+  }
+
+ a {
+    display: block;
+    padding: 8px;
+    background-color: none;
+  }
+  
+  #Leftul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: none;
+  }
+
+  #nmp{
+    list-style-type: none;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #iconitonavbar{
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #InicioP{
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+  }
+
+  #ExplorarP{
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(0,26,21);
+  }
+
+  #CrearP{
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(0,26,21);
+  }
+
+  #InicioP:hover{
+    background-color: rgb(0,17,26);
+  }
+
+  #nav {
+    margin-top: 15px;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 15px;
+    border-color: none;
+    background-color: rgb(211,211,211);
+    color: rgb(0,26,21);
+    width: 900px;
+  }
+
+.topnav{
+padding: 0;
+margin: 0;
+}
+
+  #Campanita{
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-top: 9px;
+    padding: 0;
+    border-radius: 15px;
+  }
+
+  #Mensaje{
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+
+#Monito{
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+#V{
+    color: rgb(0,26,21);
+    margin-top: 16px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  margin: 15px;
+  padding: 10px;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+}
+
+.card > img{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+#img{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.card-content{
+    opacity: 0;
+    transition-duration: .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.501);
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    color: white;
+    padding: 30px;
+}
+
+.card-content h1, .card-content p{
+margin-bottom: 15px;
+}
+
+
+.btn{
+    position: absolute;
+    bottom: 400px;
+    right: 20px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+}
+
+.Compartir{
+  justify-content: center;
+  display: flex;
+    margin-right: 25px;
+    position: absolute;
+    top: 400px;
+    bottom: 30px;
+    right: 70px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 0;
+    height: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.More{
+    justify-content: center;
+    display: flex;
+    font-size: large;
+    position: absolute;
+    top: 400px;
+    bottom: 30px;
+    right: 45px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+
+.card-content button:hover{
+    opacity: 0.8;
+}
+
+.Compartir button:hover {
+    opacity: 0.8;
+}
+
+.More button:hover {
+    opacity: 0.8;
+}
+
+.card:hover .card-content{
+    opacity: 1;
+}
+
